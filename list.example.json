@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Jon Doe",
+    "avatar": "http://api.adorable.io/avatars/120/1"
+  },
+  {
+    "id": 2,
+    "name": "Jimmy The Kid",
+    "avatar": "http://api.adorable.io/avatars/120/2"
+  },
+  {
+    "id": 3,
+    "name": "Timmy Jones",
+    "avatar": "http://api.adorable.io/avatars/120/3"
+  },
+  {
+    "id": 4,
+    "name": "Clint Doorman",
+    "avatar": "http://api.adorable.io/avatars/120/4"
+  },
+  {
+    "id": 5,
+    "name": "Cat Miow",
+    "avatar": "http://api.adorable.io/avatars/120/5"
+  },
+  {
+    "id": 6,
+    "name": "Zack Bark",
+    "avatar": "http://api.adorable.io/avatars/120/6"
+  },
+  {
+    "id": 7,
+    "name": "Vincenzo Pizza",
+    "avatar": "http://api.adorable.io/avatars/120/7"
+  },
+  {
+    "id": 8,
+    "name": "Boris Ivanov",
+    "avatar": "http://api.adorable.io/avatars/120/8"
+  }
+]
