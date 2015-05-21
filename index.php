@@ -38,7 +38,7 @@ echo htmlHeader(); ?>
                         <form action="" method="post">
                             <input type="hidden" name="type" value="add" />
                             <input type="hidden" name="id" value="<?= $student->id ?>" />
-                            <img src="<?= $student->avatar ?>" class="img-circle"/>
+                            <img width="50" src="<?= $student->avatar ?>" class="img-circle"/>
                             <?= $student->name ?>
                             <button class="btn btn-primary pull-right" type="submit">In class</button>
                         </form>
@@ -77,7 +77,7 @@ echo htmlHeader(); ?>
                         <form action="" method="post">
                             <input type="hidden" name="type" value="remove" />
                             <input type="hidden" name="id" value="<?= $student->id ?>" />
-                            <img src="<?= $student->avatar ?>" class="img-circle"/>
+                            <img width="50" src="<?= $student->avatar ?>" class="img-circle"/>
                             <?= $student->name ?>
                             <button class="btn btn-primary pull-right" type="submit">not in class</button>
                         </form>

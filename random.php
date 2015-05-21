@@ -17,6 +17,7 @@ foreach($studentsList as $row){
 
 shuffle($students);
 $cnt = 1;
+$desk = 1;
 
 echo htmlHeader(); ?>
     <div class="row col-md-12">
@@ -24,22 +25,28 @@ echo htmlHeader(); ?>
         <!-- List of students -->
             <?php
 
-            echo htmlDeskLabel(1);
+            echo htmlDeskLabel($desk);
 
             foreach($students as $student)
             {
 
                 ?>
                 <div class="col-md-6" style="text-align: center; padding: 15px;">
-                    <img src="<?= $student->avatar ?>" class="img-circle"/>
+                    <img width="50" src="<?= $student->avatar ?>" class="img-circle"/>
                     <h3><?= $student->name ?></h3>
                 </div>
 
                 <?php
                 if($cnt%2 === 0 && count($students) > $cnt){
                     echo '</div>';
+                    if( $desk % 2 == 0){
+                        echo '<div class="clear"></div>';
+                    }
                     echo '<div class="col-md-6 ' . getDeskColor() . '">';
-                    echo htmlDeskLabel($cnt/2);
+
+                    $desk++;
+
+                    echo htmlDeskLabel($desk); // because we already have a desk
                     //echo '<div class="label label-default">Desk ' . ($cnt / 2) . '</div>';
                 }
                 $cnt++;

@@ -3,6 +3,11 @@
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" type="text/css" media="screen, projection">
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <style type="text/css">
+            .clear{
+                clear:both;
+            }
+        </style>
     </head>
     <body>
         <nav class="navbar navbar-default">
